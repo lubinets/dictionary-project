@@ -1,3 +1,4 @@
+import Dictionary from "./Dictionary";
 import "./App.css";
 
 function App() {
@@ -5,7 +6,10 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header"></header>
-        <footer className="App-footer text-center">
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
           <a
             href="https://github.com/lubinets/dictionary-project"
             target="_blank"

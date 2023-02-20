@@ -1,0 +1,7 @@
+.Search {
+  display: flex;
+}
+
+.Search .search-bar {
+  margin-right: 10px;
+}
