@@ -3,8 +3,8 @@ import axios from "axios";
 import Results from "./Results";
 import "./Dictionary.css";
 
-export default function Dictionary() {
-  let [keyword, setKeyword] = useState(null);
+export default function Dictionary(props) {
+  let [keyword, setKeyword] = useState(props.defaultWord);
   let [results, setResults] = useState(null);
 
   function handleSearch(response) {
@@ -31,6 +31,7 @@ export default function Dictionary() {
           placeholder="Type any word here..."
           className="search-bar form-control"
           onChange={handleKeywordChange}
+          defaultValue={props.defaultWord}
         />
         <input
           type="submit"
