@@ -1,11 +1,14 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 body {
-  background: linear-gradient(
-    90deg,
-    rgba(210, 223, 255, 1) 0%,
-    rgb(204, 247, 255) 37%,
-    rgba(221, 225, 255, 1) 100%
-  );
-  font-family: "Montserrat", sans-serif;
+  background-color: rgb(247, 251, 255);
 }
 
 .App {
@@ -17,15 +20,30 @@ body {
   font-weight: 700;
   font-size: 48px;
   text-align: center;
-  margin: 25px auto 0px;
-  color: darkblue;
-  opacity: 70%;
+  margin: 40px auto;
+  color: #031c4e;
+  font-family: "Montserrat", sans-serif;
 }
 .App main {
   margin: 30px auto;
 }
 
 .App-footer {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
   text-align: center;
   margin: 20px auto;
+}
+
+.App img {
+  max-width: 25px;
+}
+
+.App .rotating {
+  animation: rotation 10s linear infinite;
+}
+
+.App .react {
+  font-weight: 700;
+  color: #00d8fe;
 }

@@ -9,32 +9,33 @@ function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary defaultWord="Programming" />
+          <Dictionary defaultWord="Sunset" />
         </main>
         <footer className="App-footer">
-          <a
-            href="https://github.com/lubinets/dictionary-project"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Open-source code
-          </a>{" "}
-          by{" "}
-          <a
-            href="https://www.linkedin.com/in/karina-lubinets-70309b11a/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Karina Lubinets
-          </a>
-          , hosted on{" "}
-          <a
-            href="https://melodious-paprenjak-bfc577.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Netlify
-          </a>
+          <div>
+            <a
+              href="https://github.com/lubinets/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open-source code
+            </a>{" "}
+            by{" "}
+            <a
+              href="https://www.linkedin.com/in/karina-lubinets-70309b11a/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Karina Lubinets
+            </a>
+            , coded with{" "}
+            <img
+              src="https://www.shecodes.io/assets/logos/technologies/react-600b92c82a6b987573201ac95a30d8fcd6789a803c473337aadb2c2865cb7919.png"
+              alt="React"
+              className="rotating"
+            ></img>{" "}
+            <span className="react">React</span>
+          </div>
         </footer>
       </div>
     </div>
