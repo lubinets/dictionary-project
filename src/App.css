@@ -35,7 +35,7 @@ body {
   margin: 20px auto;
 }
 
-.App img {
+.App .react-image {
   max-width: 25px;
 }
 

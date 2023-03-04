@@ -32,7 +32,7 @@ function App() {
             <img
               src="https://www.shecodes.io/assets/logos/technologies/react-600b92c82a6b987573201ac95a30d8fcd6789a803c473337aadb2c2865cb7919.png"
               alt="React"
-              className="rotating"
+              className="rotating react-image"
             ></img>{" "}
             <span className="react">React</span>
           </div>
